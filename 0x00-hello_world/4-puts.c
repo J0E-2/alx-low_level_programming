@@ -1,4 +1,7 @@
 #include <stdio.h>
+/* main - Entry point
+return: 0
+*/
 /* Program prints */
 int main(void)
 {
