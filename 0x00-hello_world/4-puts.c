@@ -1,7 +1,7 @@
 #include <stdio.h>
-/*
- * int  main - Entry point
- * Description: 'the program's description'
+/**
+ * main - Entry point
+ * Description: 'prints'
  * Return: 0
  */
 int main(void)
