@@ -3,8 +3,6 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: assigns random number to the variable,
- * and prints the last digit of the number stored in the variable
  * Result: (0)
  */
 int main(void)
