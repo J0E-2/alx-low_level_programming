@@ -4,7 +4,7 @@
 
 /**
  * main - entry point
- * Decription: program will assign a random number to the variable n each time * it is executed
+ * Decription: program assigns random numbers each time it is executed
  * Return: 0
  */
 
