@@ -12,8 +12,7 @@ while (ch < 123)
 putchar(ch);
 ch++;
 if ((ch == 101) | (ch == 113))
-{putchar(0)
-}
+putchar(0);
 }
 return (0);
 }
