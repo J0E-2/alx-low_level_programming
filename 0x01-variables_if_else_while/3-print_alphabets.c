@@ -1,0 +1,21 @@
+#include <stdio.h>
+/**
+ * main - prints the alphabet in both lower and upper case
+ * Return: (0)
+ */
+int main (void)
+{
+int ch;
+int CH;
+ch=97;
+CH=65;
+while (ch < 123, CH < 91)
+{
+putchar(ch);
+ch++;
+putchar(CH);
+CH++;
+}
+putchar(10);
+return (0);
+}
