@@ -5,12 +5,20 @@
  */
 int main(void)
 {
-int ch;
-ch = 97;
-while ((ch < 123) || (ch > 101) || (ch > 113) || (ch < 101) || (ch < 113))
-{
-putchar(ch);
-ch++;
-}
+int a;
+int b;
+int c;
+a = 97;
+b = 102;
+c = 114;
+while (a < 101)
+putchar(a);
+a++;
+while (b < 113)
+putchar(b);
+b++;
+while (c < 124)
+putchar(c);
+c++;
 return (0);
 }
