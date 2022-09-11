@@ -3,15 +3,15 @@
  * main - entry point
  * return: (0)
  */
-int main()
+int main(void)
 {
 int ch;
 ch = 97;
-while ( ch<122 )
-  {
+while (ch < 123)
+{
 putchar(ch);
-putchar(10);
 ch++;
-  }
+}
+putchar(10);
 return (0);
 }
