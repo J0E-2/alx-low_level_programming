@@ -1,0 +1,22 @@
+#include <stdio.h>
+/**
+ * main - program prints all possible combinations of single-digit numbers
+ * Return: (0)
+ */
+int main(void)
+{
+int a;
+int b;
+int c;
+a = 48;
+b = 57;
+c = (a, b);
+while ((a <= 57) && (b >= 48))
+{
+putchar(c);
+a++;
+b--;
+}
+putchar(10);
+return (0);
+}
