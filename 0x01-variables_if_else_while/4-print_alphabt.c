@@ -7,7 +7,7 @@ int main(void)
 {
 int ch;
 ch = 97;
-while ((ch < 123) && (101 < ch > 113)) 
+while ((ch < 123), (ch > 101), (ch > 113)) 
 {
 putchar(ch);
 ch++;
