@@ -7,12 +7,13 @@ int main(void)
 {
 int a;
 a = 48;
-while (a <= 57)
+while (a <= 56)
 {
 putchar(a);
 putchar(44);
 putchar(32);
 a++;
 }
+putchar(57);
 return (0);
 }
