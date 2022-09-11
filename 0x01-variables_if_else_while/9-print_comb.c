@@ -12,11 +12,6 @@ while (a <= 57)
 putchar(a);
 putchar(44);
 putchar(32);
-while(a <= 57)
-{
-putchar(a);
-a++;
-}
 a++;
 }
 return (0);
