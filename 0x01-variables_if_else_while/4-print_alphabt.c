@@ -11,7 +11,7 @@ while (ch < 123)
 {
 putchar(ch);
 ch++;
-if (ch == 101 | ch == 113)
+if ((ch == 101) | (ch == 113))
 {putchar(0)
 }
 }
