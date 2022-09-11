@@ -10,7 +10,7 @@ int b;
 int c;
 a = 48;
 b = 57;
-c = (a, b);
+c = (a && b);
 while ((a <= 57) && (b >= 48))
 {
 putchar(c);
