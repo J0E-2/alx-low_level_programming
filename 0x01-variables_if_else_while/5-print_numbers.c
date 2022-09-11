@@ -9,9 +9,9 @@ int a;
 a = 48;
 while (a <= 57)
 {
-putchar(a);
+printf("%d", a);
 a++;
 }
-putchar(10);
+printf("\n");
 return (0);
 }
