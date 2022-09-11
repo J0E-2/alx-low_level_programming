@@ -9,7 +9,7 @@ int ch;
 int CH;
 ch=97;
 CH=65;
-while (ch < 123, CH < 91)
+while (ch < 123 && CH < 91)
 {
 putchar(ch);
 ch++;
