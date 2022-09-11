@@ -14,6 +14,6 @@ putchar(44);
 putchar(32);
 a++;
 }
-putchar(57 && 32);
+putchar((57) && (32));
 return (0);
 }
