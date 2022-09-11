@@ -7,12 +7,13 @@ int main(void)
 {
 int ch;
 ch = 97;
-ch = !113;
-ch = !101;
 while (ch < 123)
 {
 putchar(ch);
 ch++;
+if (ch = 101 | ch = 113)
+{putchar(0)
+}
 }
 return (0);
 }
