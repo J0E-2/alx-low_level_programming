@@ -1,0 +1,14 @@
+#include <stdio.h>
+/**
+ *
+ *
+ */
+int main(void)
+{
+int c;
+int d;
+ c = 97;
+ d = 0;
+ while (d <= )
+ while (c <= 102)
+}
