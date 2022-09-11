@@ -6,17 +6,18 @@
 int main(void)
 {
 int a;
-int b;
-int c;
 a = 48;
-b = 57;
-c = (a && b);
-while ((a <= 57) && (b >= 48))
+while (a <= 57)
 {
-putchar(c);
+putchar(a);
+putchar(44);
+putchar(32);
+while(a <= 57)
+{
+putchar(a);
 a++;
-b--;
 }
-putchar(10);
+a++;
+}
 return (0);
 }
