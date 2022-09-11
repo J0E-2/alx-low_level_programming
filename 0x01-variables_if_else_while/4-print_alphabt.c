@@ -7,9 +7,9 @@ int main(void)
 {
 int ch;
 ch = 97;
-ch != 113;
-ch != 101;
-while (ch < 123);
+ch = !113;
+ch = !101;
+while (ch < 123)
 {
 putchar(ch);
 ch++;
