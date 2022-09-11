@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+int ch;
+ch = 97;
+while ( ch<122 )
+  {
+putchar(ch);
+putchar (10);
+ch++;
+  }
+return (0);
+}
