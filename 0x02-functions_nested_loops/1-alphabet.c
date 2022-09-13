@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - entry point
+ * main - prints the alphabet in lowercase followed by a newline
  * @char: parameter
  * Result: (0)
  */
