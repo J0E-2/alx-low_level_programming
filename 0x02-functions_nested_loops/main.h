@@ -1,10 +1,2 @@
 #include <stdio.h>
-/**
- *
- *
- */
-void _putchar(ch)
-{
-char ch;
-putchar(ch);
-}
+int _putchar(void)
