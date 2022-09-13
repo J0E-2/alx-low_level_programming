@@ -5,7 +5,8 @@
  * Result: (0)
  */
 int _putchar(char);
-int main(void)
+void print_alphabet(void);
+int print_alphabet_lowercase(void)
 {
 char a;
 a = 97;
