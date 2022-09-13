@@ -3,9 +3,8 @@
  *
  *
  */
-int _putchar(ch)
+void _putchar(ch)
 {
 char ch;
 putchar(ch);
-return (0);
 }
