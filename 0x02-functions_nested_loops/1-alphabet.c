@@ -1,4 +1,5 @@
 #include "main.h"
+#include "main.c"
 /**
  * main - prints the alphabet in lowercase followed by a newline
  * @char: parameter
