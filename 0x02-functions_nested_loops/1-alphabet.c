@@ -1,22 +1,19 @@
 #include "main.h"
-#include "main.c"
 /**
- * main - prints the alphabet in lowercase followed by a newline
- * @char: parameter
+ * lower_alphabet - prints the lower alphabet
  * Result: (0)
  */
-int _putchar(char);
 void print_alphabet(void);
-void lowecase_alphabets(void)
+int _putchar(char);
+void lower_alphabet(void)
 {
-char a;
+int a;
 a = 97;
 while (a <= 122)
 {
-_putchar(a);
+print_alphabet(a);
 a++;
 }
-print_alphabet(void);
 _putchar(10);
 return;
 }
