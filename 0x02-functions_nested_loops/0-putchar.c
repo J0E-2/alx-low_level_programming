@@ -3,7 +3,7 @@
  *
  *
  */
-int _putchar(void);
+int _putchar(char c);
 int main(void)
 {
 _putchar(45);
