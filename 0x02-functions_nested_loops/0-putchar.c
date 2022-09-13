@@ -1,12 +1,13 @@
 #include "main.h"
 /**
- *
- *
+ * main - entry point
+ * description: prints _putchar
+ * Return (0)
  */
 int _putchar(char c);
 int main(void)
 {
-_putchar(45);
+_putchar(95);
 _putchar(112);
 _putchar(117);
 _putchar(116);
