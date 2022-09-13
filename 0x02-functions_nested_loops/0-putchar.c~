@@ -1,0 +1,12 @@
+#include <stdio.h>
+/**
+ *
+ *
+ */
+int main(void)
+{
+int ^_putchar;
+_putchar = *printf;
+_putchar("_putchar/n");
+return (0);
+}
