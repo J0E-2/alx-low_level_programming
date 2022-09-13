@@ -1,8 +1,9 @@
 #include "main.h"
 /**
  * main - entry point
+ * @char: parameter
  * description: prints _putchar
- * Return (0)
+ * Return: (0)
  */
 int _putchar(char);
 int main(void)
