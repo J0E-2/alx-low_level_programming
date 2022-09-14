@@ -10,7 +10,7 @@ c = 97;
 ch = ('a');
 if (c <= 122)
 return (1);
-else if (ch <= 'z')
+if (ch <= 'z')
 return (1);
 else
 return (0);
