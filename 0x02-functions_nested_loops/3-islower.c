@@ -10,7 +10,9 @@ c = 'a';
 if (c <= 'z')
 {
 return (1);
+}
 else
+{
 return (0);
 }
 }
