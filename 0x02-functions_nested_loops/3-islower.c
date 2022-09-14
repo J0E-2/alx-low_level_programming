@@ -5,7 +5,7 @@
  */
 int _islower(int c)
 {
-char ch;
+int ch;
 c = 97;
 ch = ('a');
 if (c <= 122)
