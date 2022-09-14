@@ -6,8 +6,8 @@
  */
 int _islower(int c)
 {
-c = 'a';
-if (c <= 'z')
+c = 97
+if (c <= 122)
 {
 return (1);
 }
