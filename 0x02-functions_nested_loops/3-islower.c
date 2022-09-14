@@ -4,6 +4,7 @@
  * @c: parameter
  * Return: (0)
  */
+int isslower(int c);
 int _islower(int c)
 {
 c = 97;
