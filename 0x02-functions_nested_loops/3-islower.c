@@ -3,13 +3,13 @@
  * _islower - function checks for lowercase characters
  * Return: (0)
  */
-int _islower(int)
+int _islower(int c)
 {
-int a;
-a = 0;
-if (a >= 97)
+int c;
+c = 0;
+if (c >= 97)
 return (1);
-else if (a <= 122)
+else if (c <= 122)
 return (1);   
 else
 return (0);
