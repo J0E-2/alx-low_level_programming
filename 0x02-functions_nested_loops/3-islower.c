@@ -5,7 +5,6 @@
  */
 int _islower(int c)
 {
-int c;
 c = 0;
 if (c >= 97)
 return (1);
