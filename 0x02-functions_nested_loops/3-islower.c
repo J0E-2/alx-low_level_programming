@@ -5,9 +5,9 @@
  */
 int _islower(int c)
 {
-int c;
+int a;
 c = 0;
-if (c >= 97 $$ <=122);
+if ((a >= 97) $$ (a <=122));
 return (1);
 else
 return (0);
