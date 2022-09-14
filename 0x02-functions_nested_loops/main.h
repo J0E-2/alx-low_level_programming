@@ -14,3 +14,8 @@ void print_alphabet(void);
  * Return:
  */
 void print_alphabet_x10(void);
+/**
+ * _islower - program checks for lowercase characters
+ * Return: (0)
+ */
+int _islower(int c);
