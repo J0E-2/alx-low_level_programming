@@ -11,5 +11,5 @@ if((c >= 'a') && (c <= 'z'))
 {return (1);
 else if((c < 97) || (c > 122))
 return (0);
-}
+return 0 || 1;
 }
