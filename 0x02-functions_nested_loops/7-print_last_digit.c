@@ -5,7 +5,6 @@
  *
  * Return: last digit of number
  */
-int _putchar(char);
 int print_last_digit(int j)
 {
 int i;
