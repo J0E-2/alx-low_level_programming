@@ -11,8 +11,9 @@ while (c <= 122)
 {
 if(c >= 97)
 return (1);
-else (c < 97)
+else if(c < 97)
 return (0);
 c++;
 }
+return 0;
 }
