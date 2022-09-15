@@ -7,11 +7,12 @@
 int islower(int c);
 int _islowercase(int c)
 {
+int a;
 c = 0;
+a = (_islower(c))
 while(c <= 122)
 {
-_islower(c);
-if ((_islower(c)) = !0)
+if (a = !0)
 return (1);
 else
 return (0);
