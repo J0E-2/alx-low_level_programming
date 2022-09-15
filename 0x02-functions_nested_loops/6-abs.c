@@ -5,8 +5,9 @@
  */
 int _abs(int j)
 {
-int a;
-a = ((j * j) / j);
-_putchar(a + 0);
-return (0);
+a = j * j
+if (j > 0)
+return (j);
+else
+return (a);
 }
