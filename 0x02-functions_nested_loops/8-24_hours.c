@@ -29,11 +29,11 @@ while (i <= 2)
 		 _putchar(l + '0');
 		l++;
 	       }
+	     _putchar('\n');
 	     k++;
 	    }
 	 j++;
 	}
-      _putchar('\n');
     i++;
   }
 }
