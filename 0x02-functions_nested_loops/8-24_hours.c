@@ -6,17 +6,17 @@
  */
 void jack_bauer(void)
 {
-int a;
-int b;
-a = '0';
-while (a < 24)
+int i;
+int j;
+a = 0;
+while (i < 24)
 {
-b = '0';
-while (b < 60)
+j = 0;
+while (j < 60)
 {
-_putchar(a);
+_putchar(i + '0');
 _putchar(':');
-_putchar(b);
+_putchar(j + '0');
 _putchar('\n');
 b++;
 }
