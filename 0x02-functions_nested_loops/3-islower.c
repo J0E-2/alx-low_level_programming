@@ -2,16 +2,17 @@
 /**
  * _islower - function checks for lowercase characters
  * @c: parameter
- * Return: (0)
+ * Return: on success 1 // 0
  */
-int isslower(int c);
-int _islower(int c)
+int islower(int c);
+int _islowercase(int c)
 {
-c = 97;
-if (c <= 122)
+c = 0;
+while(c <= 122)
+{
+_islower(c)
+if (_islower(c) = !0)
 return (1);
-else if (c < 97)
-return (0);
 else
 return (0);
 }
