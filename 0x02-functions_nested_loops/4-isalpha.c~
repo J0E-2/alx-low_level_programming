@@ -1,0 +1,11 @@
+#include "main.h"
+/**
+ * _isaplha - checks for alphabetic character 
+ * @c: character to be checked
+ *
+ * Return: 0 || 1
+ */
+int _isalpha(int c)
+{
+
+}
