@@ -11,6 +11,7 @@ while (c <= 122)
 {
 if(c >= 97)
 return (1);
-}
+else
 return (0);
+}
 }
