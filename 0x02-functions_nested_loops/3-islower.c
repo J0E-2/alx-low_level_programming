@@ -9,7 +9,7 @@ int _islowercase(int c)
 {
 int a;
 c = 0;
-a = (_islower(c))
+a = (_islower(c));
 while(c <= 122)
 {
 if (a = !0)
