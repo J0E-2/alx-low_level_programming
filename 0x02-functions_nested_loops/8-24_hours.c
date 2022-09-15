@@ -27,10 +27,10 @@ while (i <= 2)
 	     while (l <= 9)
 	       {
 		 _putchar(l + '0');
+		 _putchar('\n');
 		l++;
 	       }
-	     _putchar('\n');
-	     k++;
+	      k++;
 	    }
 	 j++;
 	}
