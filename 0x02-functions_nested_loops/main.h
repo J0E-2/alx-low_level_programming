@@ -1,9 +1,8 @@
-/**
- * _putchar - prints characters
- * @char: parameter
- * Return: (0)
- */
-int _putchar(char);
+#ifndef MAIN_H
+#define MAIN_H
+
+int _putchar(char c);
+#end if
 /**
  * print_alphabet - prints the alphabet
  * Return:
