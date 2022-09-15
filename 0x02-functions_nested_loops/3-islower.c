@@ -12,7 +12,7 @@ c = 0;
 a = (_islower(c));
 while(c <= 122)
 {
-if(a = !0)
+if(a = (!0))
 return (1);
 else
 return (0);
