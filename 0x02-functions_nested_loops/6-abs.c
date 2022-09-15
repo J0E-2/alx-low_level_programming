@@ -5,10 +5,10 @@
  */
 int _abs(int j)
 {
-int a;
-a = ((j * j) / j);
 if (j > 0)
 return (j);
+else if (j < 0)
+return (-j);
 else
-return (a);
+return (0);
 }
