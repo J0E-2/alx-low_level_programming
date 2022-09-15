@@ -10,7 +10,7 @@ int i;
  int j;
  int k;
  int l;
- i = (k % 100);
+ i = (l % 100);
 while (i < 24)
 	{
 	 j = 0;
