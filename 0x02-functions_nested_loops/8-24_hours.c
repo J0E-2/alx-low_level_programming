@@ -13,10 +13,13 @@ while (a < 24)
 {
 b = 00;
 while (b < 60)
+{
 _putchar(a + '0');
 _putchar(':');
 _putchar(b + '0');
+_putchar('\n');
 b++;
+}
 a++;
 }
 }
