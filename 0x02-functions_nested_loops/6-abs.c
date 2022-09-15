@@ -3,11 +3,10 @@
  *
  *
  */
-int _abs(int)
+int _abs(int j)
 {
-int j;
 int a;
-a = ((j ** 2) / j);
+a = ((j * j) / j);
 _putchar(a);
 return (0);
 }
