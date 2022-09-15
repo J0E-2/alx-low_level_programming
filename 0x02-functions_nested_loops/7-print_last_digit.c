@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * print_last_digit
+ * print_last_digit - prints the last of a number
+ * @j: number whose last digit is to be printed
  *
- *
+ * Return: last digit of number
  */
 int _putchar(char);
 int print_last_digit(int j)
