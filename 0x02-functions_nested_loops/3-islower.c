@@ -7,9 +7,12 @@
 int _islower(int c)
 {
 c = 0;
-if((c >= 'a') && (c <= 'z'))
+while (c <= 122))
+{
+if((c >= 97)
 return (1);
-else if((c < 97) || (c > 122))
+else (c < 97)
 return (0);
-return 0 || 1;
+c++;
+}
 }
