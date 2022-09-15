@@ -2,7 +2,7 @@
 #define MAIN_H
 
 int _putchar(char c);
-#end if
+#endif
 /**
  * print_alphabet - prints the alphabet
  * Return:
