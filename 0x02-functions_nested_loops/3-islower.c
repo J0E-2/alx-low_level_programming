@@ -15,5 +15,4 @@ else if(c < 97)
 return (0);
 c++;
 }
-return 0;
 }
