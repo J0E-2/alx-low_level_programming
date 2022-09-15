@@ -7,9 +7,9 @@
 int _islower(int c)
 {
 c = 0;
-while (c <= 122))
+while (c <= 122)
 {
-if((c >= 97)
+if(c >= 97)
 return (1);
 else (c < 97)
 return (0);
