@@ -1,11 +1,11 @@
 #include "main.h"
 /**
  * main - entry point
- * @char: parameter
+ * @c: character to be printed
  * description: prints _putchar
  * Return: (0)
  */
-int _putchar(char);
+int _putchar(char c);
 int main(void)
 {
 _putchar(95);
