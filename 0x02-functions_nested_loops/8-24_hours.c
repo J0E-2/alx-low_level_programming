@@ -25,10 +25,10 @@ int i;
 		 _putchar(j + '0');
 		 _putchar(k + '0');
 		 _putchar('\n');
-	 k++;
-	    }
+	      k++;
+	     }
 	  j++;
 	   }
-    i++;
+	 l++;
 	}
 }
