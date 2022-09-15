@@ -7,6 +7,6 @@ int _abs(int j)
 {
 int a;
 a = ((j * j) / j);
-_putchar(a + '0');
+_putchar(a + 0);
 return (0);
 }
