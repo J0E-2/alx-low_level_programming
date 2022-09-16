@@ -23,8 +23,6 @@ n++;
  _putchar(' ');
  n++;
    }
- _putchar(9);
- _putchar(8);
  else
    {
    _putchar((n / 10) + '0');
