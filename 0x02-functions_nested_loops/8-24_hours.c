@@ -17,8 +17,8 @@ while (j < 6)
 k = 0;
 while (k < 10)
 {
-_putchar((i/10) + '0');
-_putchar((i%10) + '0');
+_putchar((i / 10) + '0');
+_putchar((i % 10) + '0');
 _putchar(':');
 _putchar(j + '0');
 _putchar(k + '0');
