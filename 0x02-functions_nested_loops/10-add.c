@@ -3,10 +3,8 @@
  *
  *
  */
-int add(int, int)
+int add(int i, int j)
 {
-  int i;
-  int j;
-  i = i + j
+  i = i + j;
     return (i)
 }
