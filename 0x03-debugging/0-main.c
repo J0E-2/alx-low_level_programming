@@ -6,8 +6,9 @@
 void positive_or_negative(int i);
 int main(void)
 {
-int i;
-i = 98;
-positive_or_negative(i);
+int j;
+j = 0;
+positive_or_negative(j);
+printf("\n");
 return (0);
 }
