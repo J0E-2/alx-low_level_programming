@@ -10,9 +10,10 @@ while (i <= '9')
 {
 if (i != 2 && i != 4)
 _putchar(i + '0');
-else
-continue;
 i++;
+else
+i++;
+continue;
 }
 _putchar('\n');
 }
