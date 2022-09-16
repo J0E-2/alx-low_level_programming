@@ -4,7 +4,7 @@
  * @i: integer to be added
  * @j: integer to be added
  *
- * Result: return results
+ * Return: return results
  */
 int add(int i, int j)
 {
