@@ -15,7 +15,7 @@ _putchar(',');
 _putchar(' ');
 n++;
   }
- else if (n < 98)
+ else if (n > 10 && n < 98)
    {
    _putchar((n / 10) + '0');
  _putchar((n % 10) + '0');
@@ -23,7 +23,7 @@ n++;
  _putchar(' ');
  n++;
    }
- else
+ else if (n > 98)
    {
    _putchar((n / 10) + '0');
  _putchar((n % 10) + '0');
@@ -31,7 +31,7 @@ n++;
  _putchar(' ');
  n--;
    }
- _putchar(9);
- _putchar(8);
+ _putchar(57);
+ _putchar(56);
   }
 }
