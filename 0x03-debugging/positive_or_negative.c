@@ -1,16 +1,12 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 /**
  * main - entry point
- * Decription: program assigns random numbers each time it is executed
- * Return: 0
+ * @i: number to be checked
+ *
+ * Decription: function prints if number is positive or negative
+ * Return: void
  */
-void positive_or_negative(int i)  
-{  
-srand(time(0));  
-i = rand() - RAND_MAX / 2;  
-/* print whether the number stored is positive or negative */  
+void positive_or_negative(int i)    
 {    
 if (i > 0)      
 printf("%d is positive\n", i);    
@@ -19,4 +15,4 @@ printf("%d is zero\n", i);
 else      
 printf("%d is negative\n", i);    
 }
-}  
+
