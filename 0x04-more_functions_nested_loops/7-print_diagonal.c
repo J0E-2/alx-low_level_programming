@@ -14,6 +14,8 @@ while (i < n)
 {
 if (n <= 0)
 _putchar('\n');
+ else
+{
 j = 0;
 while (j <= i)
 {
@@ -23,6 +25,7 @@ j++;
 _putchar(92);
 _putchar('\n');
 i++;
+}
 }
 _putchar('\n');
 }
