@@ -9,12 +9,15 @@ void print_diagonal(int n)
 {
 int i;
 int j;
-if (n <= 0)
-_putchar('\n');
-else
-{
 i = 0;
 while (i < n)
+{
+if (n <= 0)
+{
+_putchar('\n');
+break;
+}
+else
 {
 j = 0;
 while (j <= i)
