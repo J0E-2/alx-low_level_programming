@@ -6,14 +6,16 @@
 void more_numbers(void)
 {
 int i;
- int j;
- for (j = 1; j <= 10; j++)
-   {
- for (i = 0; i <= 14; i++)
-   {
-   _putchar(i + '0');
-   }
-   _putchar('\n');
-   }
- _putchar('\n');
+int j;
+for (j = 1; j <= 10; j++)
+{
+for (i = 0; i <= 14; i++)
+{
+if (i < 10)
+_putchar(i + '0');
+else
+_putchar((i % 100) + '0');
+}
+_putchar('\n');
+}
 }
