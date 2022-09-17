@@ -12,11 +12,7 @@ int j;
 i = 0;
 while (i < n)
 {
-if (n <= 0)
-{
-_putchar('\n');
-}
-else
+if (n > 0)
 {
 j = 1;
 while (j <= i)
@@ -28,6 +24,8 @@ _putchar(92);
 _putchar('\n');
 i++;
 }
+else
+_putchar ('\n');
 }
 _putchar('\n');
 }
