@@ -17,7 +17,7 @@ if (size > 0)
 j = 1;
 while (j <= (size - i))
 {
-_putchar('.');
+_putchar(' ');
 j++;
 }
 i = 0;
