@@ -13,13 +13,14 @@ int i;
 for (i = 0; i <= 100; i++)
 {
 if ((i % 15) == 0)
-printf("FizzBuzz\n");
+printf("FizzBuzz");
 else if ((i % 5) == 0)
-printf("Buzz\n");
+printf("Buzz");
 else if ((i % 3) == 0)
-printf("Fizz\n");
+printf("Fizz");
 else
-printf("%d\n", i);
+printf("%d", i);
+printf(" ");
 }
 return (0);
 }
