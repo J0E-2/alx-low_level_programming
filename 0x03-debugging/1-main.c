@@ -12,7 +12,7 @@ int main(void)
 	printf("Infinite loop incoming :(\n");
 
 	i = 0;
-/* loop doesn't increment so its always 0 hence an infinite loop */
+
 	while (i < 10)
 	{
 		break;
