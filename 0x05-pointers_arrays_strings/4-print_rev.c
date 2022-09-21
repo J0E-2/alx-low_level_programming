@@ -7,23 +7,19 @@
  * Return: Always 0.
  */
 
-int _strlen(char *s)
-{	int i;
-
-	for (i = 0; s[i] != '\0'; i++)
-		;
-	return (i);
-}
 void print_rev(char *s)
 {
 	int i;
 
-	i = _strlen(s);
+	i = 0;
+	while (s[i] != '\0')
+	{
+		i++;
+	}
 	while (i >= 0)
 	{
 		_putchar(s[i]);
 		i--;
 	}
-	_putchar(10);
-       
+	_putchar('\n');
 }
