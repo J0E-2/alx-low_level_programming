@@ -7,7 +7,7 @@
  * Return: Always 0.
  */
 
-int _strlen(char *s)
+int _stlen(char *s)
 {	int i;
 
 	for (i = 0; s[i] != '\0'; i++)
@@ -18,8 +18,8 @@ void print_rev(char *s)
 {
 	int i;
 
-	i = _strlen(s);
-	while (i > 0)
+	i = _stlen(s);
+	while (i >= 0)
 	{
 		_putchar(s[i]);
 		i--;
