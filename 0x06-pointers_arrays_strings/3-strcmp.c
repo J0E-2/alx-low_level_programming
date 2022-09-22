@@ -1,0 +1,17 @@
+#include "main.h"
+
+/**
+ * _strcmp - function compares two integers
+ * @s1: string 1
+ * @s2: string 2
+ *
+ * Return: integer less than, greater than or equal to 0.
+ */
+
+int _strcmp(char *s1, char *s2)
+{
+	int a;
+
+	a = *s1 - *s2;
+	return (a);
+}
