@@ -10,24 +10,20 @@
 void print_rev(char *s)
 {
 	int i;
+	int middle;
+	int len;
+	char temp;
 
 	i = 0;
 
 	while (s[i] != 0)
-	{
 		i++;
-	}
-	if (i > 1)
+	len = i;
+	middle = len / 2;
+	for (i = 0; i <= middle; i++)
 	{
-	while (i >= 0)
-	{
-		_putchar(s[i]);
-		i--;
+		temp = s[i];
+		s[i] = s[len - i - 1];
+		s[len - i - 1] = temp;
 	}
-	}
-	else
-	{
-		_putchar(s[i]);
-	}
-	_putchar('\n');
 }
