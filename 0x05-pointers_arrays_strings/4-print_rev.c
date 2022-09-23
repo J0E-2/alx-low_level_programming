@@ -17,16 +17,17 @@ void print_rev(char *s)
 	{
 		i++;
 	}
-		
-	if (i == 1)
+	if (i > 1)
+	{
+	while (i >= 0)
+	{
 		_putchar(s[i]);
+		i--;
+	}
+	}
 	else
-		{
-			while (s[i] >= 0)
-		{
-			_putchar(s[i]);
-		       	i--;
-		}
-		}
+	{
+		_putchar(s[i]);
+	}
 	_putchar('\n');
 }
