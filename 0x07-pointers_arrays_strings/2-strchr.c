@@ -12,13 +12,9 @@
 char *_strchr(char *s, char c)
 {
 	int i;
-	char j;
 	char *a;
-	char *NULL;
 
 	i = 0;
-	j = 'o';
-	NULL = &j;
 
 	for (i = 0; s[i] != c; i++)
 		;
