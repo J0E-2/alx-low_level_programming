@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * _strchr - function locates character in a string
  * @s: memory to be checked
@@ -24,5 +24,5 @@ char *_strchr(char *s, char c)
 		return (a);
 	}
 	else
-	return (NULL);
+	return NULL;
 }
