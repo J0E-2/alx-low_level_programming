@@ -12,9 +12,13 @@
 char *_strchr(char *s, char c)
 {
 	int i;
+	char j;
 	char *a;
+	char *NULL;
 
 	i = 0;
+	j = 'o';
+	NULL = &j;
 
 	for (i = 0; s[i] != c; i++)
 		;
@@ -24,5 +28,5 @@ char *_strchr(char *s, char c)
 		return (a);
 	}
 	else
-	return (0);
+	return (NULL);
 }
