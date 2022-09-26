@@ -2,7 +2,7 @@
 
 /**
  * _memset - fills memory with a constant variable
- * @s: pointer to string
+ * @s: memory to be filled
  * @b: constant byte
  * @n: bytes of memory to be filled
  *
@@ -15,6 +15,5 @@ char *_memset(char *s, char b, unsigned int n)
 
 	for (i = 0; i < n; i++)
 		s[i] = b;
-	s[i] = '\0';
 	return (s);
 }
