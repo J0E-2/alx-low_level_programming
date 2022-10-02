@@ -1,0 +1,64 @@
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ * main - program prints the minimum number of coins to make change
+ * @argc: argument count
+ * @argv: an array of strings
+ *
+ * Return: 0
+ */
+int main(int argc, char *argv[])
+{
+	int cents, i = 1, sum1 = 0, sum2 = 0, sum3 = 0;
+	int sum4 = 0, remainder, remainder2;
+
+	while (i == 1)
+	{
+		if (argc < 2)
+		{
+			printf("Error\n");
+			return (1);
+		}
+		else if (atoi(argv[i]) < 0)
+			 printf("0\n");
+		else
+		{
+			if (atoi(argv[i]) % 25 == 0)
+				printf("%d\n", atoi(argv[i]) / 25);
+			else if ((atoi(argv[i])) % 25 != 0)
+			{
+				remainder = (atoi(argv[i]) % 25);
+				if (remainder % 10 == 0)
+				{
+					sum1 = (atoi(argv[i]) / 25) + (remainder / 10);
+					printf("%d\n", sum1);
+				}
+				else if (remainder % 10 != 0)
+				{
+					cents = remainder % 10;
+					if (cents % 5 == 0)
+					{
+						sum2 = (atoi(argv[i]) / 25) + (remainder / 10) + (cents / 5);
+						printf("%d\n", sum2);
+					}
+					else if (cents % 5 != 0)
+						{
+							remainder2 = cents % 5;
+							if (remainder2 % 2 == 0)
+							{
+								sum3 = (atoi(argv[i]) / 25) + (remainder / 10) + (cents / 5) + (remainder2 / 2);
+							printf("%d\n", sum3);
+							}
+							else if (remainder2 % 2 != 0)
+							{
+								sum4 = (atoi(argv[i]) / 25) + (remainder / 10) + (cents / 5) + (remainder2 / 2) + 1;
+								printf("%d\n", sum4);
+							}
+						}
+					}
+				}
+			}
+		break;
+	}
+	return (0);
+}
