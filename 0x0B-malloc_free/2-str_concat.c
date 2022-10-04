@@ -13,18 +13,28 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *cat;
-	int i;
-	int j;
+	int i, j;
 
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
+
+	/*find the length of s1*/
 	i = 0;
 	while (s1[i] != '\0')
 		i++;
+
+	/*find the length of s2*/
 	j = 0;
 	while (s2[j] != '\0')
 		j++;
+
+	/*call to malloc*/
 	cat = malloc((sizeof(char) * (i + j)) + 1);
 	if (cat == NULL)
 		return (NULL);
+
 	i = 0;
 	while (s1[i] != '\0')
 	{
