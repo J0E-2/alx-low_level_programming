@@ -23,12 +23,12 @@ char *_strdup(char *str)
 		i++;
 	dup = malloc((sizeof(char) * i) + 1);
 	i = 0;
+	if (dup == NULL)
+		return (NULL);
 	while (str[i] != '\0')
 	{
 		dup[i] = str[i];
 		i++;
 	}
-	if (dup == NULL)
-		return (NULL);
 	return (dup);
 }
