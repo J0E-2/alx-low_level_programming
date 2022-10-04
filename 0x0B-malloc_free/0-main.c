@@ -80,7 +80,7 @@ int main(void)
 	
 
 	
-	buffer = create_array(98, 'H');
+	buffer = create_array(0, 'H');
 	
 	if  (buffer == NULL)
 		
