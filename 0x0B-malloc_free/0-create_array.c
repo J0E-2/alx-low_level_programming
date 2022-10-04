@@ -22,6 +22,10 @@ char *create_array(unsigned int size, char c)
 	{
 		if (size == 0)
 			return (NULL);
+		if (a == NULL)
+		{
+			printf("failed to allocate %d bytes after %d calls\n", size, i);
+		}
 		a[i] = c;
 		i++;
 	}
