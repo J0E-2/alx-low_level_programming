@@ -20,6 +20,11 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	while (i < n)
 	{
+		if (va_arg(ap, char*) == NULL)
+		{
+			printf("(nil)");
+			continue;
+		}
 		printf("%s", va_arg(ap, char*));
 
 		if (i != n - 1 && separator != NULL)
