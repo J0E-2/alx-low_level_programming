@@ -25,4 +25,5 @@ size_t print_list(const list_t *h)
 		node = node->next;
 		i++;
 	}
+	return (i);
 }
