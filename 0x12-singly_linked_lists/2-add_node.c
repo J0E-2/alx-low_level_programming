@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "lists.h"
+0;276;0c#include "lists.h"
 #include <string.h>
 #include <stdlib.h>
 /**
@@ -44,4 +44,3 @@ list_t *add_node(list_t **head, const char *str)
 
 	return (new);
 }
-	
