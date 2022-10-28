@@ -2,7 +2,11 @@
 /**
  * listint_len - returns the number of elements in a linked list
  * @h: pointer to list
+<<<<<<< HEAD
  * 
+=======
+ *
+>>>>>>> 047b6e8e496a91b4c07b2851fe926bb9112ff6d5
  * Return: number of elements
  */
 
