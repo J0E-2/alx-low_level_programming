@@ -1,5 +1,5 @@
 #include "main.h"
-/**
+0;276;0c/**
  * create_file - creates a file
  * @filename: name of the file to create
  * @text_content: a NULL terminated string to write
@@ -20,7 +20,7 @@ int create_file(const char *filename, char *text_content)
 		len++;
 	}
 
-	fd = open(filename, O_CREAT | O_WRONLY | O_APPEND, 0600);
+	fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
 	bytes = write(fd, text_content, len);
 
 	if (fd == -1 || bytes == -1)
