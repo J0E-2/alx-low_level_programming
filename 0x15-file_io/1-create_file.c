@@ -1,5 +1,5 @@
 #include "main.h"
-0;276;0c/**
+/**
  * create_file - creates a file
  * @filename: name of the file to create
  * @text_content: a NULL terminated string to write
