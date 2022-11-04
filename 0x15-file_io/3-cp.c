@@ -8,7 +8,7 @@
  */
 int main(int argc, char **argv)
 {
-	char buf[1024];
+	char *buf;
 	int fd, fd2, rd = 1024, wr, clse, clse2;
 
 	if (argc != 3)
@@ -16,7 +16,13 @@ int main(int argc, char **argv)
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(97);
 	}
-	fd2 = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
+	buf = malloc(sizeof(char) * 1024);
+	if (buf == NULL)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't write to file %s\n", argv[2]);
+		exit(99);
+	}
+	fd2 = open(argv[2], O_CREAT | O_RDWR | O_TRUNC, 0664);
 	fd = open(argv[1], O_RDONLY);
 	while (rd == 1024)
 	{
