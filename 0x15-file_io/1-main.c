@@ -1,4 +1,5 @@
 #include <stdio.h>
+<<<<<<< HEAD
 #include <stdlib.h>
 #include "main.h"
 
@@ -19,4 +20,47 @@ int main(int ac, char **av)
     res = create_file(av[1], av[2]);
     printf("-> %i)\n", res);
     return (0);
+=======
+
+#include <stdlib.h>
+
+#include "main.h"
+
+
+
+/**
+
+ * main - check the code
+
+ *
+
+ * Return: Always 0.
+
+ */
+
+int main(int ac, char **av)
+	
+{
+	
+	int res;
+	
+
+	
+	if (ac != 3)
+		
+	{
+		
+		dprintf(2, "Usage: %s filename text\n", av[0]);
+		
+		exit(1);
+		
+	}
+	
+	res = create_file(av[1], av[2]);
+	
+	printf("-> %i)\n", res);
+	
+	return (0);
+	
+>>>>>>> bd287b4fc4a4095b6709e971465e11376604743c
 }
