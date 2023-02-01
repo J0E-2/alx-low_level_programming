@@ -1,0 +1,6 @@
+#include "main.h"
+
+int div(a, b)
+{
+	return (a / b);
+		}
