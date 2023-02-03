@@ -1,0 +1,25 @@
+#include "lists.h"
+#include <assert.h>
+int main(void)
+{
+/*	dlistint_t *head = NULL;
+dlistint_t *newnode = add_dnodeint_end(&head, 5);
+
+assert(head != NULL);
+assert(head == newnode);
+assert(head->n == 5);
+assert(head->prev == NULL);
+assert(head->next == NULL);
+return (0);*/
+	dlistint_t *head = NULL;
+add_dnodeint_end(&head, 5);
+dlistint_t *newnode = add_dnodeint_end(&head, 10);
+
+assert(head != NULL);
+assert(newnode != NULL);
+assert(newnode->prev == head);
+assert(newnode->next == NULL);
+assert(head->next == newnode);
+assert(head->prev == NULL);
+
+return 0;}
