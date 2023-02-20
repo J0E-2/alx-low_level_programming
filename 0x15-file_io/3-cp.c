@@ -27,13 +27,13 @@ int main(int argc, char **argv)
 	while (rd)
 	{
 		rd = read(fd1, buf, 1024);
-		if (fd1 == -1 || rd == -1)
+		if (argv[1] == NULL || fd1 == -1 || rd == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 			exit(98);
 		}
 		wr = write(fd2, buf, rd);
-		if (wr == -1 || fd2 == -1)
+		if (argv[2] == NULL || wr == -1 || fd2 == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 			exit(99);
